@@ -1,0 +1,47 @@
+section.form-section {
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+form.form {
+    width: 100%;
+    font-size: var(--fs-medium);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form label {
+    display: inline;
+    margin: 0 1rem;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 0 1rem;
+}
+
+form span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input {
+    padding: 0.7rem;
+    font-size: var(--fs-small);
+}
+
+.btn {
+    background-color: var(--color-primary);
+    padding: 0.5rem 1rem;
+    font-size: var(--fs-small);
+}
+
+.btn:hover {
+    border: 3px solid var(--color-grey);
+    cursor: pointer;
+}
+
+

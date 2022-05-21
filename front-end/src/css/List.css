@@ -1,0 +1,65 @@
+section.list {
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.titles {
+    width: 100%;
+    display: flex;
+    font-size: var(--fs-medium);
+    padding-bottom: 2rem;
+    border-bottom: 3px dotted var(--color-secondary);
+}
+
+.tit {
+    text-align: center;
+}
+
+.tit:hover {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fs-small);
+}
+
+li.item {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 1.5rem 0;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    align-items: center;
+}
+
+li.item:hover {
+    border: 3px solid var(--color-grey);
+    cursor: pointer;
+}
+
+.index {
+    width: 5%;
+}
+
+.id {
+    width: 10%;
+}
+.name {
+    width: 25%;
+}
+.code {
+    width: 12%;
+}
+.class {
+    width: 8%;
+}
+.home {
+    width: 32%;
+}
+.all {
+    width: 8%;
+}

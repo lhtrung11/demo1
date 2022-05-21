@@ -1,0 +1,75 @@
+section.auth {
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+form.form {
+    width: 100%;
+    font-size: var(--fs-medium);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 0 0;
+}
+
+.title {
+    width: 100%;
+    font-size: var(--fs-medium);
+    padding-bottom: 2rem;
+    border-bottom: 3px dotted var(--color-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.title2 {
+    width: 100%;
+    font-size: var(--fs-small);
+    padding-bottom: 1rem;
+    border-bottom: 2px dotted var(--color-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.input-area {
+    width: 50%;
+}
+
+.input-area > span {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.input-area .input {
+    width: 100%;
+}
+
+.input-area label {
+    margin-bottom: 1rem;
+}
+
+.notification {
+    width: 20%;
+    padding: 1rem;
+}
+
+button.finish {
+    width: 12%;
+}
+
+.screen {
+    width: 100%;
+    padding: 1rem 0 0;
+    font-size: var(--fs-small);
+    overflow: auto;
+}
+
+.err {
+    width: 100%;
+    padding: 0.2rem;
+}
+
+
+
+
